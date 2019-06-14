@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>双列布局</title>
+  <style>
+
+    .parent{
+      width: 500px;
+      height: 600px;
+    }
+    .left{
+      margin-right: 10px;
+      width:auto;
+      height: 600px;
+      background:orange;
+      display: table;
+      color: black;
+
+    }
+
+    .right{
+      width: 200px;
+      height: 600px;
+      float:right;
+      display: table;
+      background: darkred;
+    }
+  </style>
+</head>
+<body>
+<div class="parent">
+  <div class="right">我是右边固定栏</div>
+  <div class="left">我是一个自适应宽度的左边输入框，我支持自动换行不会被右边导航栏所覆盖的内容</div>
+</div>
+
+
+</body>
+</html>
