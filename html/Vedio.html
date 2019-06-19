@@ -15,9 +15,15 @@
 </audio>
 </body>
 <script>
-  for(var i = 0; i < 10; i++){
-    //请脑补“{”和“}”之间有代码，但不会操作i
+  var fruit = {
+    apple: 20,
+    pear: 20,
+    peach: 10
+  };
+  // write your code here...
+  function getSum(fruit) {
+    return fruit.apple+fruit.peach+fruit.pear;
   }
-  console.log(i)
+  console.log(getSum(fruit));
 </script>
 </html>
